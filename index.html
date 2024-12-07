@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Especies</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tu hoja de estilos personalizada -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Biblioteca de Especies</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mailto:aguilarleonfelipe2106@gmail.com">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Sección de introducción -->
+    <header id="inicio" class="bg-success text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Conoce y protege la biodiversidad</h1>
+            <p class="lead">
+                La Biblioteca de Especies es un espacio dedicado a explorar las especies en peligro de extinción. Aquí encontrarás información valiosa sobre animales terrestres, marinos, aves y plantas, y cómo podemos preservar nuestro planeta para las futuras generaciones.
+            </p>
+        </div>
+    </header>
+
+    <!-- Sección de categorías -->
+    <section id="categorias" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Categorías</h2>
+            <div class="row g-4">
+                <!-- Animales Terrestres -->
+                <div class="col-md-6 col-lg-3">
+                    <a href="terrestres.html" class="text-decoration-none">
+                        <div class="card bg-dark text-white categoria-fija">
+                            <img src="img/terrestre.jpg" class="card-img" alt="Animales Terrestres">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title text-center">Animales Terrestres</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Animales Marinos -->
+                <div class="col-md-6 col-lg-3">
+                    <a href="marinos.html" class="text-decoration-none">
+                        <div class="card bg-dark text-white categoria-fija">
+                            <img src="img/marino.jpg" class="card-img" alt="Animales Marinos">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title text-center">Animales Marinos</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Aves -->
+                <div class="col-md-6 col-lg-3">
+                    <a href="aves.html" class="text-decoration-none">
+                        <div class="card bg-dark text-white categoria-fija">
+                            <img src="img/ave.jpg" class="card-img" alt="Aves">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title text-center">Aves</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Plantas -->
+                <div class="col-md-6 col-lg-3">
+                    <a href="plantas.html" class="text-decoration-none">
+                        <div class="card bg-dark text-white categoria-fija">
+                            <img src="img/planta.webp" class="card-img" alt="Plantas">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title text-center">Plantas</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-success text-white text-center py-3">
+        <p>&copy; 2024 Biblioteca de Especies. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
